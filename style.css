@@ -1,0 +1,44 @@
+/* style.css */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #86bcc1;
+  margin: 0;
+  padding: 20px;
+  
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  text-align: center;
+}
+
+h1 {
+  color: #2e86c1;
+}
+
+select {
+  padding: 10px;
+  font-size: 16px;
+  margin: 15px 0;
+  width: 100%;
+  max-width: 400px;
+}
+
+.card {
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+#map {
+  height: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+

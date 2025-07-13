@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Udaipur Bus Tracker</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  />
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>🚌 BusNow – Udaipur Smart Bus Tracker</h1>
+
+    <select id="routeSelect">
+      <option value="1">Route 1 – Badgaon to Titardi</option>
+      <option value="2">Route 2 – Rampura to Dabok</option>
+    </select>
+
+    <div class="card" id="routeInfo">
+      <h2>Route Details</h2>
+      <p><strong>First Bus:</strong> <span id="firstBus"></span></p>
+      <p><strong>Last Bus:</strong> <span id="lastBus"></span></p>
+      <p><strong>Frequency:</strong> <span id="interval"></span></p>
+      <p><strong>Stops:</strong> <span id="stops"></span></p>
+    </div>
+
+    <div id="map"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
